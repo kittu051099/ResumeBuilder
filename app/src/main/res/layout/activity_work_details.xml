@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundmain"
+    tools:context=".WorkDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Work Details"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/company"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntOrg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Organization/Company"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/post"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Job Post"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/role"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Role"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/experience"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Total Experience"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/WorkDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#FF0000"
+            android:layout_marginTop="30dp"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/WorkSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#32CD32"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>

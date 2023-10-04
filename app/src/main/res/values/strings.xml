@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ResumeBuilderDemo</string>
+    <string-array name="course_arrays">
+        <item>SSC</item>
+        <item>HSC</item>
+        <item>Graduation</item>
+        <item>Bachelor of Engineering</item>
+        <item>Post Graduation</item>
+        <item>Master of Engineering</item>
+        <item>Other</item>
+    </string-array>
+</resources>

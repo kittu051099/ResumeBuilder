@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityFormEducation"
+    android:background="@drawable/backgroundmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Strength Activity"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/foi"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntFOI1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Field of Interest"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/foi"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntFOI2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Field of Interest"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/skill"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntSkill1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skill"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/skill"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntSkill2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skill"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/strength"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntStrength1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Strength"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/strength"
+                android:layout_marginRight="10dp" />
+
+            <EditText
+                android:id="@+id/EntStrength2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Strength"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/StrenthSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:background="#32CD32"
+            android:layout_marginTop="30dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+</ScrollView>
