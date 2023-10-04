@@ -3,4 +3,3 @@ Resume Builder is an android application specially designed for building resumes
 
 https://github.com/kittu051099/ResumeBuilder
 
-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5
